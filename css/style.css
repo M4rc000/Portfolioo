@@ -3,6 +3,11 @@ body{
     height: 3000px;
 }
 
+.fixed-top.scrolled {
+    background-color: #222a35 !important;
+    transition: background-color 200ms linear;
+  }
+
 .instagram, .linkedin, .github{
     display: inline-block;
     width: 47px;
@@ -14,9 +19,9 @@ body{
 
 .instagram img, .linkedin img, .github img {
     text-align: center;
-    width: 45px;
-    height: 45px;
-    line-height: 60px;
+    width: 40px;
+    height: 40px;
+    margin-top: 3px;
     transform: translate(0px, 0px);
 }
 
@@ -130,7 +135,7 @@ body{
     line-height: 120px;
     box-shadow: -1px -1px 1px white, 3px 3px 1px black;
     animation-name: c1;
-    animation-duration: 30s;
+    animation-duration: 60s;
 }
 
 @keyframes c1 {
@@ -206,7 +211,7 @@ body{
     line-height: 120px;
     box-shadow: -1px -1px 1px white, 3px 3px 1px black;
     animation-name: c2;
-    animation-duration: 30s;
+    animation-duration: 60s;
 }
 
 @keyframes c2 {
@@ -284,7 +289,7 @@ body{
     line-height: 120px;
     box-shadow: -1px -1px 1px white, 3px 3px 1px black;
     animation-name: c3;
-    animation-duration: 30s;
+    animation-duration: 60s;
 }
 
 @keyframes c3 {
@@ -358,15 +363,15 @@ body{
 }
 
 .cover-certificate{
-    width: 204px;
-    height: 144px;
+    width: 274px;
+    height: 204px;
     border: 2px solid white;
     margin: auto;
 }
 
 .cover-certificate img{
-    width: 200px;
-    height: 140px;
+    width: 269px;
+    height: 200px;
 }
 
 .isi-about .row{
@@ -376,8 +381,8 @@ body{
 .container-skills{
     background-color: #1f2631;
     color: white;
-    height: 1000px;
-    margin-top: -6rem;
+    height: 700px;
+    margin-top: 0rem;
 }
 
 .cover-image, .cover-images{
@@ -399,13 +404,21 @@ body{
 
 .container-projects img{
     width: 350px;
-    height: 180px;
+    height: 220px;
     line-height: 190px;
 }
 
 .description p{
-font-family: 'Square Peg', serif;
+font-family: 'Courier Prime', monospace;
 font-size: 30px;
+}
+
+p.title{
+    font-size: 25px;
+}
+
+p.desc{
+    font-size: 20px;
 }
 
 .description a {
@@ -475,6 +488,10 @@ font-size: 30px;
 
 @media (max-width: 467px) {
 
+    .fixed-top{
+        margin-top: -1px;
+    }
+
     p.name-two,p.name-three{
         font-size: 22px !important;
     }
@@ -484,25 +501,43 @@ font-size: 30px;
         padding-right: 1rem;
     }
 
+    .isi-about-right{
+        padding: 2rem;
+    }
+
     .container-skills{
-        padding-top: 60rem;
-        height: 3100px;
+        padding-top: 83rem;
+        height: 2400px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .container-skills .col-2 {
+        text-align: center;
+        justify-content: center;
+        margin-left: 2.1rem;
+    }
+
+    .container-skills .col-2 img{
+        width: 96px;
+        height: 96px;
     }
 
     #skills .row{
         display: grid;
+        text-align: center;
         grid-template-columns: repeat(2, 100px);
         gap: 3rem;
     }
 
-    #result .row{
+    /* #result .row{
         display: grid;
         grid-template-columns: repeat(1, 650px);
         margin-left: 23rem;
-    }
+    } */
 
     .container-projects{
-        padding-top: 2rem;
+        padding-top: 0rem;
     }
 
     .container-projects .row {
@@ -518,6 +553,10 @@ font-size: 30px;
         width: 340px !important;
         height: 250px;
         border-radius: 5px;
+    }
+
+    .container-contact .col-5{
+        width: 350px;
     }
 
 }

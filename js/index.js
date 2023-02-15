@@ -27,6 +27,7 @@ form.addEventListener('submit', e => {
 // PARALLAX EFFECT
 
 $(window).on('load', function(){
+
   setTimeout(function(){
     $('.hero .hero-left').addClass('hero-left-show');  
   },250);
@@ -107,4 +108,16 @@ function () {
 $( '#navbar .navbar-nav' ).find( 'li.active' )
 .removeClass( 'active' );
 $( this ).parent( 'li' ).addClass( 'active' );
+});
+
+const footer = document.querySelector('#p-footer');
+const d = new Date();
+let year = d.getFullYear();
+footer.innerHTML = "Copyright &copy; Portofolio Website " + year + ".";
+
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
 });
