@@ -363,15 +363,15 @@ body{
 }
 
 .cover-certificate{
-    width: 274px;
-    height: 204px;
+    width: 369px;
+    height: 264px;
     border: 2px solid white;
     margin: auto;
 }
 
 .cover-certificate img{
-    width: 269px;
-    height: 200px;
+    width: 365px;
+    height: 261px;
 }
 
 .isi-about .row{
@@ -382,7 +382,7 @@ body{
     background-color: #1f2631;
     color: white;
     height: 700px;
-    margin-top: 0rem;
+    margin-top: 10rem;
 }
 
 .cover-image, .cover-images{
@@ -403,7 +403,7 @@ body{
 }
 
 .container-projects img{
-    width: 350px;
+    width: 360px;
     height: 220px;
     line-height: 190px;
 }
@@ -505,13 +505,23 @@ p.desc{
         padding: 2rem;
     }
 
+    .cover-certificate{
+        width: 333px;
+        height: 264px;
+    }
+    .cover-certificate img{
+        width: 330px;
+        height: 261px;
+    }
+
     .container-skills{
         padding-top: 83rem;
         height: 2400px;
         text-align: center;
         justify-content: center;
+        margin-top: 15rem;
     }
-
+    
     .container-skills .col-2 {
         text-align: center;
         justify-content: center;
@@ -530,11 +540,14 @@ p.desc{
         gap: 3rem;
     }
 
-    /* #result .row{
-        display: grid;
-        grid-template-columns: repeat(1, 650px);
-        margin-left: 23rem;
-    } */
+    #skills .javascript, #skills .php
+    {
+        margin-top: -.5rem;
+        margin-bottom: 1.5rem;
+    } 
+    #skills .java, #skills .python{
+            margin-top: 1rem;
+    }
 
     .container-projects{
         padding-top: 0rem;
