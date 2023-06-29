@@ -1,7 +1,5 @@
 <a name="readme-top"></a>
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- PROJECT LOGO -->
 <br />
 
@@ -36,7 +34,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/M4rc000/Portfolio/blob/main/assets/img/Preview.png)
+[![Product Name Screen Shot][product-screenshot]](./assets/img/Preview.png)
 
 The project above is a portfolio of my own website which contains my personal profile data such as self-description, skills, areas of interest, contacts, as well as several certificates and projects that I have worked on.
 
@@ -80,7 +78,7 @@ Project Link: [https://github.com/M4rc000/Portfolio](https://github.com/M4rc000/
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [linkedin-url]: https://www.linkedin.com/in/marco-antonio-6168121b0/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: ./assets/img/Preview.png
 [HTML.com]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML/
 [CSS.com]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
