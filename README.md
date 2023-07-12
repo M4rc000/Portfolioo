@@ -13,13 +13,6 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <!-- <li><a href="#prerequisites">Prerequisites</a></li> -->
-        <li><a href="#download">Download</a></li>
-      </ul>
-    </li>
     <!-- <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li> -->
@@ -48,16 +41,6 @@ In this project I use several technologies, libraries and frameworks such as
 [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 [![JQuery][JQuery.com]][JQuery-url]
 
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-### Download
-
-- npm
-  ```sh
-  npm i portfolio-marco
-  ```
 
 <!-- LICENSE -->
 
